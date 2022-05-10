@@ -32,10 +32,12 @@ tasks.named('test') {
 test {
   testLogging {
     events "failed"
+
     showExceptions true
     exceptionFormat "full"
     showCauses true
     showStackTraces false
+
     showStandardStreams = false
   }
 }
